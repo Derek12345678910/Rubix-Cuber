@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)            # Enable c++14 standard
 # Add all files
 file(GLOB SOURCE_FILES
     "${CMAKE_SOURCE_DIR}/main.cpp"
-    "${CMAKE_SOURCE_DIR}/src/*"
+    "${CMAKE_SOURCE_DIR}/src/*.cpp"
 )
 
 # Set the executable location to the backend folder
